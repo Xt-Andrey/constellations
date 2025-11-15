@@ -1,11 +1,78 @@
-<!DOCTYPE html>
+<!-- ...existing code... -->
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get in touch — Replica</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <!-- Fuente (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <main class="page">
+    <section class="hero">
+      <div class="container">
+        <header class="hero-header">
+          <h1 class="title">Get in <span class="accent">touch</span></h1>
+          <p class="subtitle">Reach out, and let's create a universe of possibilities together!</p>
+        </header>
+
+        <div class="card">
+          <!-- Lado izquierdo: formulario -->
+          <div class="form-side">
+            <h2 class="card-title">Let's connect constellations</h2>
+            <p class="card-desc">Let's align our constellations! Reach out and let the magic of collaboration illuminate our skies.</p>
+
+            <form class="contact-form formulario" novalidate>
+              <div class="row two-cols">
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input id="lastName" name="lastName" type="text" placeholder="Last Name" />
+                </div>
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input id="firstName" name="firstName" type="text" placeholder="First Name" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel" placeholder="Phone Number" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit purple">
+                Send it to the moon
+                <span class="btn-rocket" aria-hidden>🚀</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Lado derecho: imagen + cita -->
+          <aside class="media-side">
+            <!-- La imagen ahora llena todo el contenedor -->
+            <img src="./assets/astronauta.png" alt="astronaut" class="media-image" />
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Script principal (usa tu main.js existente) -->
+  <script src="./js/main.js"></script>
 </body>
 </html>
+<!-- ...existing code... -->
