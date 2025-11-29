@@ -1,3 +1,5 @@
+RUBIEL ANDREY GALVIS GALVIS  192483
+ARNOL CLARO  192493
 # Parcial – Desarrollo Web (HTML + CSS)
 
 Para este parcial, cada estudiante deberá elegir **una** de las dos opciones de diseño y **replicar el formulario únicamente con HTML y CSS**, sin usar frameworks ni JavaScript.
